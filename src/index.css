@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    
+    h1{tex-center
+        font-[Mulish] font-extrabold text-[16px]
+        sm:font-[Poppins] sm:font-semibold sm:text-[36px]
+        sm:hover:font-extrabold
+    }
+}
