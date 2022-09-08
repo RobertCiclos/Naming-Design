@@ -6,7 +6,7 @@ const Paso1 = () => {
     <section>
       <h1>
          HOLA 
-      </h1>  
+      </h1> 
     </section>
   )
 }
