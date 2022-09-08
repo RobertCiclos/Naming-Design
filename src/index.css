@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    
+
     h1 {
         @apply text-center
         font-[Mulish] font-extrabold text-[16px]
@@ -12,4 +12,11 @@
     }
 }
 
+@layer components {
 
+    .contenedor{
+        @apply  mx-auto pb-[4px] w-[full] 
+                xl:pb-[10px]
+      }
+
+}

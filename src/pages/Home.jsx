@@ -6,7 +6,7 @@ const Home = () => {
     <section>
       <h1>
          HOLA 
-        </h1>  
+      </h1>  
     </section>
   )
 }
