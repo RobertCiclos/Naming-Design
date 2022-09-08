@@ -1,13 +1,13 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Paso1 from "./pages/Paso1";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Footer />
+    <div>
+      <Navbar/>
+      <Paso1/>
+      <Footer/>
     </div>
   );
 }
