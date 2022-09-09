@@ -4,9 +4,9 @@ const Paso6 = () => {
   
   return (
     <section>
-      <h1>
-         HOLA 
-      </h1>  
+      <div
+        className='bg-[#2B2326]'>
+      </div> 
     </section>
   )
 }

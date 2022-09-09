@@ -6,8 +6,8 @@
 
     h1 {
         @apply text-center
-        font-[Mulish] font-extrabold text-[16px]
-        sm:font-[Poppins] sm:font-semibold sm:text-[36px]
+        font-[Mulish] font-extrabold text-[16px] sm:text-[24px]
+        sm:font-[Poppins] sm:font-semibold lg:text-[36px]
         sm:hover:font-extrabold
     }
 }

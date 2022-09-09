@@ -11,7 +11,7 @@ const Navbar = () => {
               lg:h-[100px] lg:px-[165px]   '>
               <nav 
                 className=' w-full h-[100px] grid grid-cols-[201px_1fr_237px] items-center'>
-                <img src="./svg/logoprincipal.svg" />
+                <img src="./svg/logoprincipal.svg" alt=''/>
                 <div 
                   className=''>
                 </div>
@@ -20,12 +20,12 @@ const Navbar = () => {
                   <button 
                     className='bg-amarilloN flex items-center justify-center
                     w-[173px] h-[40px] rounded-[20px] font-[Poppins] font-bold'>
-                    <img src="./svg/btn-icon.svg" />
+                    <img src="./svg/btn-icon.svg" alt=''/>
                     <p 
                       className='ml-[9px] text-[#2B2326]'>Escribenos
                     </p>
                   </button>
-                  <img 
+                  <img alt=''
                     className='ml-[30px]' src='./svg/icono-idioma.svg'/>
                 </div>
               </nav>
