@@ -1,4 +1,4 @@
-import {Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Paso1 from "./pages/Paso1";
@@ -10,18 +10,18 @@ import Paso6 from "./pages/Paso6";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path="/Paso2" element={Paso2}/>
-        <Route path="/Paso3" element={Paso3}/>
-        <Route path="/Paso4" element={Paso4}/>
-        <Route path="/Paso5" element={Paso5}/>
-        <Route path="/Paso6" element={Paso6}/>
-        <Route path="/" element={Paso1}/>
+        <Route path="/Paso2" element={<Paso2/>}/>
+        <Route path="/Paso3" element={<Paso3/>}/>
+        <Route path="/Paso4" element={<Paso4/>}/>
+        <Route path="/Paso5" element={<Paso5/>}/>
+        <Route path="/Paso6" element={<Paso6/>}/>
+        <Route path="/" element={<Paso1/>}/>
       </Routes>
       <Footer/>
-    </Router>
+    </BrowserRouter>
   );
 }
 
