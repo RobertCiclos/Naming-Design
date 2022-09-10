@@ -10,6 +10,13 @@
         sm:font-[Poppins] sm:font-semibold sm:text-[36px]
         sm:hover:font-extrabold
     }
+
+    h3 {
+        @apply text-left
+        font-[Mulish] font-medium text-[24px]
+        sm:hover:font-bold
+
+    }
 }
 
 @layer components {
@@ -17,6 +24,10 @@
     .contenedor{
         @apply  mx-auto pb-[4px] w-[full] 
                 xl:pb-[10px]
+      }
+
+    .lista{
+        @apply  font-[Mulish] font-normal text-[16px] 
       }
 
 }
