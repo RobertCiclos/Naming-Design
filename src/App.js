@@ -17,7 +17,6 @@ function App() {
         <Route path="/Paso3" element={<Paso3/>}/>
         <Route path="/Paso4" element={<Paso4/>}/>
         <Route path="/Paso5" element={<Paso5/>}/>
-        <Route path="/Paso6" element={<Paso6/>}/>
         <Route path="/" element={<Paso1/>}/>
       </Routes>
       <Footer/>
